@@ -1,5 +1,7 @@
 import { NextPage } from 'next';
 
-const Home: NextPage = () => <>Home</>;
+import HomeView from '@/views/home/Home.view';
+
+const Home: NextPage = () => <HomeView />;
 
 export default Home;
