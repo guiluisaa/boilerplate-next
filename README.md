@@ -2,6 +2,10 @@
 
 The boilerplate-next frontend app
 
+> Visit the live app at [https://boilerplate-next.ergil.dev/](https://boilerplate-next.ergil.dev/)
+
+> Visit the live storybook at [https://sb-boilerplate-next.ergil.dev/](https://sb-boilerplate-next.ergil.dev/)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer:
