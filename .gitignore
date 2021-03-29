@@ -11,6 +11,10 @@
 # next.js
 /.next/
 /out/
+/dist/
+
+# storybook
+/storybook/
 
 # production
 /build

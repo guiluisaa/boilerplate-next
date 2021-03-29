@@ -21,5 +21,5 @@ jobs:
       - name: Check Lint
         run: yarn lint
 
-      # - name: Run Tests
-      #   run: yarn test:unit
+      - name: Run Tests
+        run: yarn test:unit

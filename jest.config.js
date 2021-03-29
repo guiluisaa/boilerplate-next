@@ -27,7 +27,7 @@ module.exports = {
     '@/(.*)$': '<rootDir>/src/$1'
   },
   testMatch: ['<rootDir>/src/**/*.test.+(ts|tsx|js|jsx)'],
-  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/.next/'],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/', '/.next/', '/storybook/'],
   setupFilesAfterEnv: ['<rootDir>/test/setup.ts'],
   verbose: true,
   testURL: 'http://localhost/',

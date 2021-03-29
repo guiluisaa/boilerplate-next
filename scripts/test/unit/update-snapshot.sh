@@ -1,3 +1,3 @@
-#!/bin/bash
-echo "🔃 Updating snapshots ..."
+echo "🕹 🔃 Updating snapshots ..."
+
 jest --updateSnapshot
