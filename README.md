@@ -15,9 +15,9 @@ You will need the following things properly installed on your computer:
 
 - `git clone <repository-url>` this repository
 - `cd boilerplate-next`
-- `yarn install --ignore-engines`
+- `yarn install`
 
-## Running / Development
+## Running Development
 
 - `yarn start:local`
 - Visit the app at [http://localhost:4000](http://localhost:4000).
@@ -29,6 +29,19 @@ yarn build
 ```
 
 > The build result will be in `./.next` directory
+
+## Storybook
+
+### Running the Storybook
+- `yarn start:storybook`
+- Visit the storybook at [http://localhost:6006](http://localhost:6006).
+
+### To build the storybook:
+```bash
+yarn build:storybook
+```
+
+> The build result will be in `./storybook` directory
 
 Then run
 

@@ -16,7 +16,9 @@
     "test:unit:update-snapshot": "scripty",
     "lint": "scripty",
     "lint:fix": "scripty",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start:storybook": "scripty",
+    "build:storybook": "scripty"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
@@ -27,7 +29,12 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.14",
     "@babel/preset-typescript": "^7.13.0",
+    "@storybook/addon-actions": "^6.1.21",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.1.21",
+    "@storybook/react": "^6.1.21",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.22",
@@ -37,6 +44,7 @@
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
     "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
     "babel-plugin-module-resolver": "^4.1.0",
     "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^7.22.0",

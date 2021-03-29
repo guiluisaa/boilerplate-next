@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 
 import HomeView from './Home.view';
 
-describe('<HomeView />', () => {
+describe('view | <HomeView />', () => {
   it('should match snapshot', () => {
     const { container } = render(<HomeView />);
 
