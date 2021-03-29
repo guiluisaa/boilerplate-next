@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeView /> should match snapshot 1`] = `
+<div
+  class="Layoutcomponent__Wrapper-hjilh-0 GdiLF"
+>
+  <h1
+    class="Homeview__Title-sc-1pmkhfg-0 fBxQaw"
+  >
+    Home View
+  </h1>
+</div>
+`;
