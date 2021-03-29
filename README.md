@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# boilerplate-next
 
-## Getting Started
+The boilerplate-next frontend app
 
-First, run the development server:
+## Prerequisites
+
+You will need the following things properly installed on your computer:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/) (with npm)
+- [Yarn](https://yarnpkg.com/)
+- [Google Chrome](https://google.com/chrome/)
+
+## Installation
+
+- `git clone <repository-url>` this repository
+- `cd boilerplate-next`
+- `yarn install --ignore-engines`
+
+## Running / Development
+
+- `yarn start:local`
+- Visit the app at [http://localhost:4000](http://localhost:4000).
+
+## Building
 
 ```bash
-npm run dev
-# or
-yarn dev
+yarn build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> The build result will be in `./.next` directory
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Then run
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+# run server side renderer server
+yarn start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Testing
 
-## Learn More
+```bash
+# unit tests
+yarn test:unit
 
-To learn more about Next.js, take a look at the following resources:
+# unit tests in whatch mode
+yarn test:unit:whatch
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# unit tests with coverage
+yarn test:unit:coverage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# unit tests and update snapshot
+yarn test:unit:update-snapshot
+```
 
-## Deploy on Vercel
+## Our Environments
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+We have the following environments:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+| Environments | Description                                              |
+| ------------ | -------------------------------------------------------- |
+| _production_ | It is the production environment (a.k.a _"prod"_)        |
+| _local_      | It is the local environment running on developer machine |
+
+## Commits Guideline
+
+We use the standard of [conventional commits](https://www.conventionalcommits.org/), so all commits in this repository must follow this convention.
+
+## Install Editor Plugins
+
+To develop in this project, you will need to install the following plugins in your editor.
+
+| Plugin   | Required |
+| -------- | -------- |
+| eslint   | \*       |
+| Prettier | \*       |
