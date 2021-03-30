@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import Link from 'next/link';
 
 import District from '@/models/Dictrict.model';
 
@@ -7,14 +8,18 @@ type DistrictsViewProps = {
 };
 
 const DistrictsView: FC<DistrictsViewProps> = ({ districts }) => (
-  <div>
-    {districts.map(district => (
-      <div key={district.id}>
-        <p>{district.id}</p>
-        <p>{district.name}</p>
-      </div>
-    ))}
-  </div>
+  <>
+    <p>
+      <Link href="/">Home</Link>
+    </p>
+    <ul>
+      {districts.map(district => (
+        <li key={district.id}>
+          <Link href={`/bairros/${district.id}`}>{district.name}</Link>
+        </li>
+      ))}
+    </ul>
+  </>
 );
 
 export default DistrictsView;
