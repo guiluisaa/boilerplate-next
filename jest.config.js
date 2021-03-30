@@ -14,7 +14,7 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/src/**/*.ts(x)',
-    '!<rootDir>/src/pages/_*',
+    '!<rootDir>/src/pages/**/*',
     '!<rootDir>/src/**/*.stories.(ts|tsx)',
     '!<rootDir>/src/@types/**/*',
     '!<rootDir>/src/components/storybook/**/*',
