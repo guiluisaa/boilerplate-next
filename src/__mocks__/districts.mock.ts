@@ -29,17 +29,17 @@ const districtsMock: District[] = [
 ];
 
 export const getDistricts = async () => {
-  await delay(5000);
+  await delay(1000);
   return districtsMock;
 };
 
 export const getFisrtsDistricts = async () => {
-  await delay(5000);
+  await delay(1000);
   return districtsMock.filter(({ id }) => parseInt(id) <= 3);
 };
 
 export const getDistrict = async (id: string): Promise<District> => {
-  await delay(5000);
+  await delay(1000);
   const district = districtsMock.filter(district => district.id === id)[0];
 
   if (!district) {
