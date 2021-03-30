@@ -4,6 +4,11 @@ exports[`view | <HomeView /> should match snapshot 1`] = `
 <div
   class="Layoutcomponent__Wrapper-hjilh-0 GdiLF"
 >
+  <a
+    href="/bairros"
+  >
+    Bairros
+  </a>
   <h1
     class="Homeview__Title-sc-1pmkhfg-0 fBxQaw"
   >
