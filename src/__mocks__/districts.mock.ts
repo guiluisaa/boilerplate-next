@@ -28,6 +28,11 @@ const districtsMock: District[] = [
   },
 ];
 
+export const getDistricts = async () => {
+  await delay(5000);
+  return districtsMock;
+};
+
 export const getFisrtsDistricts = async () => {
   await delay(5000);
   return districtsMock.filter(({ id }) => parseInt(id) <= 3);
