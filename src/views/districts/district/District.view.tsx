@@ -10,7 +10,7 @@ type DistrictViewProps = {
 const DistrictView: FC<DistrictViewProps> = ({ district }) => (
   <div>
     <p>
-      <Link href="/">Home</Link> <Link href="/bairos">Back</Link>
+      <Link href="/">Home</Link> <Link href="/bairros">Back</Link>
     </p>
 
     <p>{district.id}</p>
