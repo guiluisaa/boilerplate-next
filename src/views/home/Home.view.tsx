@@ -10,7 +10,7 @@ const Title = styled.h1`
 
 const HomeView: FC = () => (
   <Layout>
-    <Link href="/bairros">Bairros</Link>
+    <Link href="/posts">Posts</Link>
     <Title>Home View</Title>
   </Layout>
 );
