@@ -1,4 +1,5 @@
 module.exports = {
+  testEnvironment: 'jsdom',
   displayName: 'boilerplate-next',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json'],
   transform: {
