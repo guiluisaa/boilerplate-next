@@ -17,28 +17,40 @@ You will need the following things properly installed on your computer:
 
 ## Installation
 
-- `git clone <repository-url>` this repository
-- `cd boilerplate-next`
-- `yarn install`
+```bash
+git clone <repository-url> #this repository
+
+cd boilerplate-next
+
+yarn install
+```
+
 
 ## Running Development
 
-- `yarn start:local`
-- Visit the app at [http://localhost:4000](http://localhost:4000).
+```bash
+# local environment
+yarn start:local
+
+# preview environment
+yarn start:preview
+```
+> Visit the app at [http://localhost:4000](http://localhost:4000).
 
 ## Building
 
 ```bash
 yarn build
 ```
-
 > The build result will be in `./.next` directory
 
 ## Storybook
 
 ### Running the Storybook
-- `yarn start:storybook`
-- Visit the storybook at [http://localhost:6006](http://localhost:6006).
+```bash
+yarn start:storybook
+```
+> Visit the storybook at [http://localhost:6006](http://localhost:6006).
 
 ### To build the storybook:
 ```bash
@@ -77,6 +89,7 @@ We have the following environments:
 | Environments | Description                                              |
 | ------------ | -------------------------------------------------------- |
 | _production_ | It is the production environment (a.k.a _"prod"_)        |
+| _preview_    | It is the preview environment (a.k.a _"staging"_)        |
 | _local_      | It is the local environment running on developer machine |
 
 ## Commits Guideline
