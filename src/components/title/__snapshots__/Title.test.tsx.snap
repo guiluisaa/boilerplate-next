@@ -2,7 +2,7 @@
 
 exports[`component | <Title /> should match snapshot 1`] = `
 <h1
-  class="Titlecomponent__Title-r7cffw-0 iJANgm"
+  class="Titlecomponent__Title-sc-r7cffw-0 dZSInL"
 >
   Heading
 </h1>

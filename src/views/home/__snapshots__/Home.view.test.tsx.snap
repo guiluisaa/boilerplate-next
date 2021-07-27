@@ -2,7 +2,7 @@
 
 exports[`view | <HomeView /> should match snapshot 1`] = `
 <div
-  class="Layoutcomponent__Wrapper-hjilh-0 GdiLF"
+  class="Layoutcomponent__Wrapper-sc-hjilh-0 kVDPjA"
 >
   <a
     href="/bairros"
@@ -10,7 +10,7 @@ exports[`view | <HomeView /> should match snapshot 1`] = `
     Bairros
   </a>
   <h1
-    class="Homeview__Title-sc-1pmkhfg-0 fBxQaw"
+    class="Homeview__Title-sc-1pmkhfg-0 ewFurc"
   >
     Home View
   </h1>
