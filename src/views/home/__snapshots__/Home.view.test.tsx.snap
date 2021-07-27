@@ -5,9 +5,9 @@ exports[`view | <HomeView /> should match snapshot 1`] = `
   class="Layoutcomponent__Wrapper-sc-hjilh-0 kVDPjA"
 >
   <a
-    href="/bairros"
+    href="/posts"
   >
-    Bairros
+    Posts
   </a>
   <h1
     class="Homeview__Title-sc-1pmkhfg-0 ewFurc"
