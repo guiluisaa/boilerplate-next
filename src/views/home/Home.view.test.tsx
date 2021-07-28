@@ -12,8 +12,6 @@ describe('view | <HomeView />', () => {
   it('should render the heading', () => {
     render(<HomeView />);
 
-    expect(
-      screen.getByRole('heading', { name: /home view/i })
-    ).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /title/i })).toBeInTheDocument();
   });
 });

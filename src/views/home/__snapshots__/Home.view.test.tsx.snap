@@ -12,7 +12,18 @@ exports[`view | <HomeView /> should match snapshot 1`] = `
   <h1
     class="Homeview__Title-sc-1pmkhfg-0 ewFurc"
   >
-    Home View
+    title
   </h1>
+  <a
+    href="/"
+  >
+    Português do Brasil
+  </a>
+  <br />
+  <a
+    href="/"
+  >
+    Enlish
+  </a>
 </div>
 `;
