@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
+import { appWithTranslation } from 'next-i18next';
 
 const CustomApp: FC<AppProps> = ({ Component, pageProps, router }) => (
   <>
@@ -21,4 +22,4 @@ const CustomApp: FC<AppProps> = ({ Component, pageProps, router }) => (
   </>
 );
 
-export default CustomApp;
+export default appWithTranslation(CustomApp);
