@@ -12,8 +12,10 @@ const PostsPage: NextPage<PostsPageProps> = ({ posts }) => (
   <PostsView posts={posts} />
 );
 
-export const getStaticProps: GetStaticProps<PostsPageProps> = async () => {
-  const posts = await getPosts();
+export const getStaticProps: GetStaticProps<PostsPageProps> = async ({
+  locale,
+}) => {
+  const posts = await getPosts(locale);
 
   return {
     props: {

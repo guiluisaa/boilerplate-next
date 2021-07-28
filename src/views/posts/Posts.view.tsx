@@ -16,7 +16,9 @@ const PostsView: FC<PostsViewProps> = ({ posts }) => (
     <ul>
       {posts.map(post => (
         <li key={post.id}>
-          <Link href={`/posts/${post.id}`}>{post.title}</Link>
+          <Link href={`/posts/${post.id}`}>
+            {`${post.language}: ${post.title}`}
+          </Link>
         </li>
       ))}
     </ul>
